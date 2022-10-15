@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-1: #311e3e;
+  --color-2: #b1dcda;
+  --color-3: #1aa959;
+  --color-4: #164d4a;
+}
+
+body {
+  background: #311e3e;
+  overflow: hidden;
+  cursor: none;
+}
+
+.controls {
+  position: absolute;
+  z-index: 100;
+}
+.controls > input {
+  width: 100vw;
+}
+.controls > label {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+canvas {
+  position: absolute;
+}
